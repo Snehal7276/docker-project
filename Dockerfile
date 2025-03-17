@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM quay.io/centos/centos:latest
 MAINTAINER snehal-snehalsalve7276@gmail.com
 RUN yum install -y httpd \
  zip\
